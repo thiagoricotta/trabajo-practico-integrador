@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Barra de navegacion */
+
+.navbar{
+    position: fixed;
+    z-index: 1000;
+    right: 0%;
+    left: 0%;
+    top: 0%;
+}
+
+.container-fluid{
+    margin-left: 100px;
+    margin-right: 100px;
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+.navbar-brand{
+    font-size: 25px;
+    box-sizing: border-box;
+}
+
+#navbarNav{
+    justify-content: right;
+}
+
+.navbar-toggler{
+    right: 0;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+}
+
+/* primera seccion */
+
+.section-one{
+    margin-top: 120px;
+}
+.card > img{
+    max-height: 800px;
+    object-fit:cover;
+}
+.card-img-overlay{
+    justify-content: right;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.text-overlay{
+    display: inline-block;
+    width: 40%;
+    margin-right: 8em;
+    margin-top: 20em;
+}
+
+/* segunda seccion */
+.text-conoce-a-los{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.oradores{
+   justify-content: center
+    
+}
+
+
+/* cuarta seccion */
+
+.section-four{
+width: 50%;
+margin: 0 0 0 0;
+margin: auto;
+}
+.text-conviertete{
+    margin-top: 2em;
+    margin-bottom: 0;
+}
+.text.orador{
+    margin-bottom: 0;
+}
+.boton-enviar{
+    margin-top: 0;
+}
+
+/* footer */
+
+.footer{
+    background: rgb(9,30,36) linear-gradient(90deg, rgba(9,30,36,1) 0%, rgba(25,74,88,1) 68%, rgba(26,108,121,1) 100%, rgba(0,212,255,1) 100%);
+    margin: 0%;
+
+}
+
+
